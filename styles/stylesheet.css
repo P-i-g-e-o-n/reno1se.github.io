@@ -1,6 +1,9 @@
 .container {
   display: flex; }
 
+.sidebar ul {
+  list-style: none; }
+
 .page {
   width: 100%;
   height: 100%; }
