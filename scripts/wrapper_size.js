@@ -1,4 +1,4 @@
-var wrapper = document.querySelector("#page_wrapper");
+var wrapper = document.getElementById("page_wrapper"),
     width = window.innerWidth,
     height = window.innerHeight;
 wrapper.style.width = width;
