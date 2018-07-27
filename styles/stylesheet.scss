@@ -1,4 +1,20 @@
-
+$color_menu: #004D40;
+$color_menu_hover: #00695C;
+$color_menu_text: #ffffff;
 .container {
  display: flex;
+}
+.sidebar {
+
+}
+.page {
+    width:100%;
+    height:100%;
+}
+.nav {
+
+}
+.nav_item {
+    background-color: $color_menu;
+    color: $color_menu_text;
 }
