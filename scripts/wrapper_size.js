@@ -1,5 +1,4 @@
 var wrapper = document.getElementById("page_wrapper"),
     width = window.innerWidth,
     height = window.innerHeight;
-wrapper.style.width = width;
-wrapper.style.height = height;
+console.log(wrapper);
