@@ -1,6 +1,11 @@
 $color_menu: #004D40;
 $color_menu_hover: #00695C;
 $color_menu_text: #ffffff;
+
+
+body {
+    margin: 0;
+}
 .container {
  display: flex;
 }
