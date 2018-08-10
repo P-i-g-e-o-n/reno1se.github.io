@@ -5,19 +5,12 @@
   <!--  Meta  -->
   <meta charset="UTF-8" />
   <title>main</title>
-  <script type="text/javascript">
-  function size() {
-    var wrapperCont = document.querySelector("#pageWrapper");
-    wrapperCont.style.height = 120;
-  }
-  size()
-  </script>
   <!--  Styles  -->
   <link rel="stylesheet" href="styles/stylesheet.css">
 </head>
 <body>
   <div class="container" id="pageWrapper">
-    <!--<div class="container">
+    <div class="container">
       <div class="sidebar">
         <ul class="nav">
           <li class="nav_item">universe</li>
@@ -30,7 +23,14 @@
       <div class="page">
           <iframe src="/pages/nms_universe/index.html" width="100%" height="100%" frameborder="0"> </iframe>       
       </div>
-    </div>-->
+    </div>
   </div>
+  <script>
+    function size() {
+      var wrapperCont = document.querySelector("#pageWrapper");
+      wrapperCont.style.height = 120;
+    }
+    size()
+    </script>
 </body>
 </html>
